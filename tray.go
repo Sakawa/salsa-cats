@@ -9,11 +9,11 @@ package trayicon
 #include <stdlib.h>
 
 #if defined LINUX
-#include "platform/linux.c"
+#include "platform/linux.h"
 #elif defined WIN32
-#include "platform/windows.c"
+#include "platform/windows.h"
 #elif defined DARWIN
-#include "platform/darwin.m"
+#include "platform/darwin.h"
 #endif
 
 */
